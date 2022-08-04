@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    background-color: #0d1117;
+    color: #8b949e;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons img {
+    width: 16px;
+    height: 16px;
+}
+
+.dropdown {
+    margin-top: 1px;
+    margin-left: 8px;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-style: solid;
+    border-width: 4px 4px 0;
+    color: rgb(175, 171, 171);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.left-btn {
+    display: flex;
+}
+
+.left-btn div {
+    padding: 5px 16px;
+}
+
+.main-btn {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #21262d;
+    border: 1px solid #21262d;
+}
+
+.main-btn:hover {
+    background-color: #363a42;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.left-btn img {
+    margin-right: 4px;
+}
+
+.branch-btn {
+    text-align: center;
+    border: 1px solid #0d1117;
+    border-radius: 4px;
+}
+
+.branch-btn a {
+    text-decoration: none;
+    color: #8b949e;
+}
+
+.branch-btn a img {
+    position: relative;
+    top: 2px;
+}
+
+
+
+.branch-btn a:hover {
+    color: blue;
+}
+
+
+
+
+
+
+.tags-btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0d1117;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.tags-btn strong {
+    margin-right: 4px;
+    color: white;
+}
+
+.tags-btn:hover {
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+
+
+.right-btn {
+    display: flex;
+}
+.right-btn div {
+    padding: 5px 16px;
+    margin-right: 10px;
+}
+
+.green-code {
+    background-color: green;
+}
+
+.green-code:hover {
+    background-color: rgb(35, 160, 35);
+}
+
+.files-info {
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #161b22;
+    height: 55px;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+
+.left-info {
+    display: flex;
+    align-items: center;
+    color: #c9d1d9;
+}
+
+.left-info a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #c9d1d9;
+}
+
+.left-info a:hover {
+    text-decoration: underline;
+}
+
+.left-info span a:hover {
+    color: rgb(91, 91, 201);
+}
+
+.header img {
+    margin-right: 10px;
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+}
+
+.right-info {
+    display: flex;
+    align-items: center;
+}
+
+.right-info > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #8b949e;
+}
+
+.right-info a:hover {
+    color: rgb(69, 69, 75);
+    text-decoration: underline;
+}
+
+.commits img {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+}
+
+.commits {
+    display: flex;
+    align-items: center;
+}
+
+.commits:hover {
+    cursor: pointer;
+    color: rgb(91, 91, 201);
+}
+
+.commits strong {
+    color: white;
+    margin-right: 3px;
+}
+
+.files-info-container {
+    border: .1em solid rgb(70, 68, 68);
+    border-radius: 4px;
+}
+
+.files-info-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.file-info {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.file-info:hover {
+    background-color: #161b22;
+}
+
+.img-name a {
+    text-decoration: none;
+    color: #cec7c7;
+}
+
+.img-name a:hover {
+    text-decoration: underline;
+    color: rgb(91, 91, 201);
+}
+
+.status a {
+    text-decoration: none;
+    color: #8b949e;
+}
+
+.status a:hover {
+    text-decoration: underline;
+    color: rgb(69, 69, 75);
+}
+
+.img-name {
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    width: 35%;
+}
+
+.img-name img {
+    margin-right: 10px;
+}
+
+.boder-line {
+    border-bottom: .1em solid rgb(70, 68, 68);
+}
+
