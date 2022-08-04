@@ -8,12 +8,26 @@ http.createServer((req, res) => {
 // lvl 1
 
     if (req.url === '/') {
+        res.setHeader('content-type', 'text/html');
         res.end('Welcome');
     } else if (req.url === '/123') {
+        res.setHeader('content-type', 'text/html');
         res.end('Good /123');
 
 // lvl 2
-////////////////////
+
+    } else if (req.url === '/text-gener') {
+        res.setHeader('content-type', 'text/html');
+        res.end('Some text');
+    } else if (req.url === '/html-gener') {
+        res.setHeader('content-type', 'text/html');
+        res.end('<h2>WELCOME</h2>');
+
+    } else if (req.url === '/json-gener') {
+        res.setHeader('content-type', 'application/json');
+        res.end(`{ "Name": "Foo", "Id": 1234, "Rank": 7 }`);
+
+
 // lvl 3
 
     } else if (req.url === '/index.html') {
